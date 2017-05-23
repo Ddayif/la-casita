@@ -1,10 +1,11 @@
 body{
 	margin: 0;
-	padding: 0;`
+	padding: 0;
+	background: url("../img/cielo.jpg");
 }
 
 .sol{
-	position: fixed;
+	position: absolute;
 	width: 100px;
 	height: 100px;
 	background: yellow;
@@ -18,15 +19,16 @@ body{
 .pasto{
 	
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background: green;
 	bottom: 0;
 	position: absolute;
+	background-size: cover;
 }
 
 .techo{
 	position: absolute;
-	border-bottom: 163px solid black;
+	border-bottom: 163px solid #013940;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	height: 140px;
@@ -39,7 +41,7 @@ body{
 	position: relative;
 	width: 440px;
 	height: 250px;
-	background: SaddleBrown;
+	background: #F2B6A0;
 	left: 722px;
 	top: 350px;
 }
@@ -47,8 +49,109 @@ body{
 .chimenea{
 	position: absolute;
 	width: 45px;
-	height: 105px;
+	height: 98px;
 	left: 1042px;
-	top: 216px;
-	background: red;
+	top: 230px;
+	background: #D9D5F2;
+}
+
+.puerta{
+	position: absolute;
+	width: 130px;
+	height: 200px;
+	background: #F27E63;
+	right: 486px;
+	bottom: 38px;
+}
+
+
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    bottom: -220px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 815px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #67417C;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 765px;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+.humo1{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	right: 200px;
+	bottom: 480px;
+	background-color: #D991D4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
+}
+
+.humo2{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	right: 217px;
+	bottom: 440px;
+	background-color: #D991D4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
+}
+
+.humo3{
+		position: absolute;
+	height: 30px;
+	width: 30px;
+	right: 260px;
+	bottom: 420px;
+	background-color: #D991D4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
+}
+
+.ventana{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	bottom: 100px;
+	right: 310px;
+	background: #BF417C;
 }
